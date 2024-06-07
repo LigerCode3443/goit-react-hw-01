@@ -1,0 +1,50 @@
+.box_profile {
+  width: 500px;
+  margin: 0 auto;
+  margin-top: 50px;
+  border-radius: 15px;
+  border: 2px solid black;
+  background-color: gray;
+  overflow: hidden;
+}
+
+.box_img {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+  margin-bottom: 50px;
+  font-size: 24px;
+  color: aqua;
+}
+
+.img_pro {
+  display: block;
+  width: 270px;
+  height: 270px;
+  border-radius: 100%;
+  background-color: aqua;
+  margin: 0 auto;
+  margin-top: 100px;
+}
+.list {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+}
+.item {
+  font-size: 25px;
+  color: black;
+  text-transform: uppercase;
+  width: calc(100% / 3);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-top: 2px solid black;
+  border-left: 2px solid black;
+  /* border: 2px solid black; */
+}
+.item:first-child {
+  border-left: none;
+}
